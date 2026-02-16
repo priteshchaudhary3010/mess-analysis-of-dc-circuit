@@ -4,6 +4,7 @@ Form mesh equations and solve for unknown currents using matrix methods.
 This project focuses on determining unknown mesh currents in a multi-loop DC circuit using Mesh Current Analysis and computational methods in MATLAB.
 Mesh analysis is a systematic technique based on Kirchhoff’s Voltage Law (KVL) that converts circuit loops into simultaneous linear equations. MATLAB is then used to solve these equations efficiently using matrix methods.
 This project demonstrates how numerical computation tools can simplify circuit analysis and reduce manual calculation errors.
+
 ➤ Objective
 The main objectives of this project are:
 • To understand the concept of mesh current analysis
@@ -12,6 +13,7 @@ The main objectives of this project are:
 • To solve simultaneous linear equations using MATLAB
 • To verify circuit currents using computational methods
 • To visualize structured circuit equation solving
+
 ➤ Problem Description
 A multi-loop DC resistive circuit consisting of:
 • DC voltage sources
@@ -19,6 +21,7 @@ A multi-loop DC resistive circuit consisting of:
 • Interconnected loops (meshes)
 is analyzed to determine the unknown loop currents flowing in each mesh using systematic equation formulation and MATLAB matrix solution.
 The circuit contains shared resistors between adjacent meshes, making it suitable for mesh current analysis.
+
 ➤ Mathematical Formulation
 Mesh Current Principle
 Each loop current is assumed in clockwise direction. Kirchhoff’s Voltage Law is applied to every loop:
@@ -27,6 +30,7 @@ Loop Voltage Equation
 Matrix Form
 MATLAB solves this using:
 I = A\B
+
 ➤ Methodology
 The mesh currents are determined using a computational approach:
 Identify all meshes in the circuit
