@@ -1,5 +1,6 @@
 # mess-analysis-of-dc-circuit
 Form mesh equations and solve for unknown currents using matrix methods.
+
 ➤ Project Overview
 This project focuses on determining unknown mesh currents in a multi-loop DC circuit using Mesh Current Analysis and computational methods in MATLAB.
 Mesh analysis is a systematic technique based on Kirchhoff’s Voltage Law (KVL) that converts circuit loops into simultaneous linear equations. MATLAB is then used to solve these equations efficiently using matrix methods.
