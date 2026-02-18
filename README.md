@@ -40,6 +40,7 @@ Form simultaneous mesh equations
 Convert equations into matrix form
 Implement matrix solution in MATLAB
 Compute all mesh currents automatically
+
 ➤ MATLAB Implementation
 The MATLAB script performs:
 • Definition of resistance matrix
@@ -52,12 +53,14 @@ Typical MATLAB steps:
 • Build RHS voltage vector
 • Solve using backslash operator
 • Print mesh currents
+
 ➤ Results
 The computational analysis yields:
 • Numerical values of all mesh currents
 • Correct current sharing across common resistors
 • Fast and error-free solution of multi-loop circuits
 Results match manual mesh analysis calculations.
+
 ➤ Key Concepts Demonstrated
 This project illustrates:
 • Mesh current method
@@ -66,6 +69,7 @@ This project illustrates:
 • Matrix representation of circuits
 • MATLAB numerical solving
 • Computational circuit analysis
+
 ➤ Engineering Significance
 Mesh current analysis is essential in:
 • DC network analysis
@@ -74,15 +78,18 @@ Mesh current analysis is essential in:
 • Control systems circuits
 • Electronic hardware modeling
 This project highlights how computational tools improve speed and accuracy in engineering analysis.
+
 ➤ How to Run the Project
 Open MATLAB
 Copy the provided .m script
 Define resistance matrix and source vector
 Run the file
 Observe calculated mesh currents
+
 ➤ Author
 Pritesh Chaudhary
 3rd Year Engineering Student
 Computational Engineering Laboratory Project
+
 ➤ Project Summary
 This project successfully demonstrates how mesh current analysis of DC circuits can be solved efficiently using MATLAB matrix methods. It reinforces the importance of numerical tools in solving multi-loop circuit equations and modern engineering problems.
